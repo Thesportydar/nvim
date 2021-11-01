@@ -52,4 +52,19 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " cppman-nvim
 Plug 'aitjcize/cppman'
 
+" Polyglot
+Plug 'sheerun/vim-polyglot'
+
+" UltiSnips
+Plug 'SirVer/ultisnips'
+
+" vim-snippets
+Plug 'honza/vim-snippets'
+
+" vimspector
+Plug 'puremourning/vimspector'
+
+" vim-codex
+Plug 'https://github.com/tom-doerr/vim_codex'
+
 call plug#end()
