@@ -1,0 +1,24 @@
+{
+    //"java.jdt.ls.home": "~/.config/coc/extensions/coc-java-data/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar"
+  //"java.trace.server": "verbose",
+  //"java.import.gradle.enabled": true,
+
+  // codelens
+  //"codeLens.enable": true,
+  //"java.referencesCodeLens.enabled": true,
+
+    "languageserver": {
+        "hdlChecker": {
+            "command": "hdl_checker",
+            "args": [
+                "--lsp"
+            ],
+            "filetypes": [
+                "vhdl",
+                "verilog",
+                "systemverilog"
+            ]
+        }
+    }
+
+}

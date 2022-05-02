@@ -5,7 +5,6 @@ autocmd VimEnter * NERDTree | wincmd p
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
 " Indent_blankline
-set listchars=space:·,eol:↴
 let g:indent_blankline_space_char_blankline = ' '
 let g:indent_blankline_show_end_of_line = v:true
 let g:indent_blankline_show_current_context = v:true

@@ -27,19 +27,14 @@ set clipboard=unnamedplus   " using system clipboard
 set showcmd                 " shows command history
 set cursorline              " highlight current cursorline
 set ttyfast                 " Speed up scrolling in Vim
+set listchars=trail:•,space:·,eol:↲,tab:->,nbsp:?,extends:?,precedes:?
+set list
 set noswapfile            " disable creating swap file
-imap <C-c> <Esc> 
+imap <C-c> <Esc>
 xnoremap K :move '<-2<CR>gv-gv
 xnoremap J :move '>+1<CR>gv-gv
 nmap <silent> <leader>d :bp\|bd #<CR>
-
-" trailing whitespaces
-"highlight ExtraWhitespace ctermbg=red guibg=red
-"match ExtraWhitespace /\s\+$/
-"au BufWinEnter * match ExtraWhitespace /\s\+$/
-"au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
-"au InsertLeave * match ExtraWhitespace /\s\+$/
-"au BufWinLeave * call clearmatches()
+let g:python3_host_prog = '/usr/bin/python3'
 
 " set spell                  enable spell check (may need to download language package)
 " set backupdir=~/.cache/vim  Directory to store backup files.

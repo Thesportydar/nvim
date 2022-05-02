@@ -19,14 +19,8 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend upda
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 
-" lsp-config
-Plug 'neovim/nvim-lspconfig'
-
 " NERDcommenter
 Plug 'preservim/nerdcommenter'
-
- "nvim-polyglot
-Plug 'sheerun/vim-polyglot'
 
 " web-devicons
 Plug 'kyazdani42/nvim-web-devicons' " lua
@@ -52,19 +46,21 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " cppman-nvim
 Plug 'aitjcize/cppman'
 
-" Polyglot
-Plug 'sheerun/vim-polyglot'
-
 " UltiSnips
 Plug 'SirVer/ultisnips'
 
 " vim-snippets
 Plug 'honza/vim-snippets'
 
-" vimspector
-Plug 'puremourning/vimspector'
+" copilot
+Plug 'github/copilot.vim'
 
-" vim-codex
-Plug 'https://github.com/tom-doerr/vim_codex'
+"vim-fugitive
+Plug 'tpope/vim-fugitive'
 
+" vim surround
+Plug 'tpope/vim-surround'
+
+" vim-gitgutter
+Plug 'airblade/vim-gitgutter'
 call plug#end()
