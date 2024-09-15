@@ -22,25 +22,20 @@ set wildmode=longest,list   " get bash-like tab completions
 set cc=80                  " set an 80 column border for good coding style
 filetype plugin indent on   "allow auto-indenting depending on file type
 syntax on                   " syntax highlighting
-set mouse=a                 " enable mouse click
 set clipboard=unnamedplus   " using system clipboard
 set showcmd                 " shows command history
 set cursorline              " highlight current cursorline
 set ttyfast                 " Speed up scrolling in Vim
-set listchars=trail:•,space:·,eol:↲,tab:->,nbsp:?,extends:?,precedes:?
+set listchars=trail:•,space:·,eol:↲,tab:->,nbsp:n,extends:?,precedes:?
 set list
 set noswapfile            " disable creating swap file
 imap <C-c> <Esc>
 xnoremap K :move '<-2<CR>gv-gv
 xnoremap J :move '>+1<CR>gv-gv
 nmap <silent> <leader>d :bp\|bd #<CR>
-let g:python3_host_prog = '/usr/bin/python3'
-
-" set spell                  enable spell check (may need to download language package)
-" set backupdir=~/.cache/vim  Directory to store backup files.
+let g:python3_host_prog = '/Users/thesportydar/opt/anaconda3/bin/python'
 
 "---------------------------------- sources ------------------------------------
 source ~/.config/nvim/plugins/plugins.vim
 source ~/.config/nvim/plugins/plugins_config.vim
-source ~/.config/nvim/themes/onedark.vim
-
+colorscheme tokyonight

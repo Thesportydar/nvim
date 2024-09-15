@@ -31,6 +31,9 @@ Plug 'ryanoasis/vim-devicons' " vimscript
 " Onedark
 Plug 'joshdick/onedark.vim'
 
+" tokyonight
+Plug 'folke/tokyonight.nvim'
+
 " Airline
 Plug 'vim-airline/vim-airline'
 
@@ -41,7 +44,7 @@ Plug 'frazrepo/vim-rainbow'
 Plug 'RRethy/vim-illuminate'
 
 " coc-nvim
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': 'yarn install --frozen-lockfile'}
 
 " cppman-nvim
 Plug 'aitjcize/cppman'
@@ -63,4 +66,7 @@ Plug 'tpope/vim-surround'
 
 " vim-gitgutter
 Plug 'airblade/vim-gitgutter'
+
+" omnisharp-vim
+Plug 'OmniSharp/omnisharp-vim'
 call plug#end()
