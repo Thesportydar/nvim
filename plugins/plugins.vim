@@ -36,6 +36,7 @@ Plug 'folke/tokyonight.nvim'
 
 " Airline
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 " vim-rainbow
 Plug 'frazrepo/vim-rainbow'
@@ -50,9 +51,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': 'yarn install --frozen-loc
 Plug 'aitjcize/cppman'
 
 " UltiSnips
-Plug 'SirVer/ultisnips'
-
-" vim-snippets
+"Plug 'SirVer/ultisnips'
+"
+" Snippets are separated from the engine. Add this if you want them:
 Plug 'honza/vim-snippets'
 
 " copilot
@@ -65,8 +66,17 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 
 " vim-gitgutter
-Plug 'airblade/vim-gitgutter'
+"Plug 'airblade/vim-gitgutter'
+
+" nerdtree-git-plugin
+Plug 'Xuyuanp/nerdtree-git-plugin'
+
+" gitsigns
+Plug 'lewis6991/gitsigns.nvim'
+
+" vim dashboard
+Plug 'nvimdev/dashboard-nvim'
 
 " omnisharp-vim
-Plug 'OmniSharp/omnisharp-vim'
+"Plug 'OmniSharp/omnisharp-vim'
 call plug#end()

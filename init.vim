@@ -33,9 +33,9 @@ imap <C-c> <Esc>
 xnoremap K :move '<-2<CR>gv-gv
 xnoremap J :move '>+1<CR>gv-gv
 nmap <silent> <leader>d :bp\|bd #<CR>
-let g:python3_host_prog = '/Users/thesportydar/opt/anaconda3/bin/python'
+"let g:python3_host_prog = '/Users/thesportydar/miniconda3/bin/python'
 
 "---------------------------------- sources ------------------------------------
 source ~/.config/nvim/plugins/plugins.vim
 source ~/.config/nvim/plugins/plugins_config.vim
-colorscheme tokyonight
+colorscheme tokyonight-moon
