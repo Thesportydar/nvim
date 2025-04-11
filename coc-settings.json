@@ -1,4 +1,13 @@
 
 {
+<<<<<<< HEAD
   "pyright.inlayHints.parameterTypes": false
+=======
+    "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/15.0.3/clangd_15.0.3/bin/clangd",
+    "java.format.settings.url": "/Users/thesportydar/.config/coc/extensions/node_modules/redhat.java/eclipse-formatter.xml",
+    "pyright.inlayHints.parameterTypes": false,
+    "pyright.inlayHints.variableTypes": false,
+    "pyright.inlayHints.functionReturnTypes": false,
+    "snippets.ultisnips.pythonPrompt": false,
+>>>>>>> refs/remotes/origin/master
 }

@@ -37,6 +37,7 @@ xnoremap K :move '<-2<CR>gv-gv
 xnoremap J :move '>+1<CR>gv-gv
 nmap <silent> <leader>d :bp\|bd #<CR>
 nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
+"let g:python3_host_prog = '/Users/thesportydar/miniconda3/bin/python'
 
 "---------------------------------- sources ------------------------------------
 source ~/.config/nvim/plugins/plugins.vim
