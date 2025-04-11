@@ -28,9 +28,6 @@ Plug 'kyazdani42/nvim-web-devicons' " lua
 " vimscript
 Plug 'ryanoasis/vim-devicons' " vimscript
 
-" Onedark
-Plug 'joshdick/onedark.vim'
-
 " tokyonight
 Plug 'folke/tokyonight.nvim'
 
@@ -44,16 +41,16 @@ Plug 'frazrepo/vim-rainbow'
 Plug 'RRethy/vim-illuminate'
 
 " coc-nvim
-Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " cppman-nvim
 Plug 'aitjcize/cppman'
 
 " UltiSnips
-Plug 'SirVer/ultisnips'
+"Plug 'SirVer/ultisnips'
 
 " vim-snippets
-Plug 'honza/vim-snippets'
+"Plug 'honza/vim-snippets'
 
 " copilot
 Plug 'github/copilot.vim'
@@ -67,6 +64,4 @@ Plug 'tpope/vim-surround'
 " vim-gitgutter
 Plug 'airblade/vim-gitgutter'
 
-" omnisharp-vim
-Plug 'OmniSharp/omnisharp-vim'
 call plug#end()

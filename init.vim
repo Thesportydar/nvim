@@ -29,13 +29,19 @@ set ttyfast                 " Speed up scrolling in Vim
 set listchars=trail:•,space:·,eol:↲,tab:->,nbsp:n,extends:?,precedes:?
 set list
 set noswapfile            " disable creating swap file
+let g:python3_host_prog = '/home/inaqui/.myenv/bin/python3'
+
+"---------------------------------- mappings ----------------------------------
 imap <C-c> <Esc>
 xnoremap K :move '<-2<CR>gv-gv
 xnoremap J :move '>+1<CR>gv-gv
 nmap <silent> <leader>d :bp\|bd #<CR>
-let g:python3_host_prog = '/Users/thesportydar/opt/anaconda3/bin/python'
+nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
 
 "---------------------------------- sources ------------------------------------
 source ~/.config/nvim/plugins/plugins.vim
 source ~/.config/nvim/plugins/plugins_config.vim
+"source ~/.config/nvim/themes/onedark.vim
+lua require('tokyonight_config')
+lua require('treesitter_config')
 colorscheme tokyonight
